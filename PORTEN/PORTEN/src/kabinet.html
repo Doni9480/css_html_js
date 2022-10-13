@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+   @@include('html/head.html',{
+      title: "Личный кабинет"
+   })
+   <body>
+      @@include('html/header.html',{})
+      <main>
+         <div class="section cabinet">
+            <div class="cabinet__user conteyner">
+               <div class="cabinet__user">
+                  <div class="cabinet__user-title title">
+                     личный кабинет
+                  </div>
+                  <div class="cabinet__user-info">
+                     <div class="cabinet__user-photo">
+                        <img src="@img/user_photo.png" alt="user_photo">
+                     </div>
+                     <div class="cabinet__user-content-text">
+                        <div class="cabinet__user-name">
+                           Vasily Ivan
+                        </div>
+                        <div class="cabinet__user-p">
+                           <span>Пол:</span> Мужской
+                        </div>
+                        <div class="cabinet__user-adress">
+                           <span>Адрес:</span> Москва/ул.Пушкина/Дом 12
+                        </div>
+                        <div class="cabinet__user-number">
+                           <span>Номер Телефона:</span> 7 (812) 223-44-67
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+               <div class="cabinet__purchases">
+                  <div class="cabinet__user-subtitle title">
+                     Ваши Покупки
+                  </div>
+                  <div class="cabinet__purchases-status-list">
+                     <div class="cabinet__produkt">
+                        <div class="section2__produkt-img">
+                           <img src="@img/i.jpg" alt="img">
+                           <img src="@img/komplekt.jpg" alt="img">
+                           <img src="@img/br.jpg" alt="img">
+                           <img src="@img/acs.jpg" alt="img">
+
+                        </div>
+                        <div class="section2__produkt-content-text">
+                           <div class="section2__produkt-date"><span>Дата покупки:</span> 2022.01.01 <span>Время:</span> 8:03</div>
+                           <div class="section2__produkt-price"><span>Сумма:</span> 165 000 руб. <span>Статус оплаты:</span> Оплачен </div>
+                        </div>
+                     </div>
+                     <div class="cabinet__produkt">
+                        <div class="section2__produkt-img">
+                           <img src="@img/acs.jpg" alt="img">
+                           <img src="@img/komplekt.jpg" alt="img">
+                           <img src="@img/i.jpg" alt="img">
+                           <img src="@img/p.jpg" alt="img">
+                        </div>
+                        <div class="section2__produkt-content-text">
+                           <div class="section2__produkt-date"><span>Дата покупки:</span> 2022.01.01 <span>Время:</span> 8:03</div>
+                           <div class="section2__produkt-price"><span>Сумма:</span> 165 000 руб. <span>Статус оплаты:</span> Оплачен </div>
+                        </div>
+                     </div>
+                     <div class="cabinet__produkt">
+                        <div class="section2__produkt-img">
+                           <img src="@img/komplekt.jpg" alt="img">
+                           <img src="@img/acs.jpg" alt="img">
+                           <img src="@img/p.jpg" alt="img">
+                           <img src="@img/i.jpg" alt="img">
+                        </div>
+                        <div class="section2__produkt-content-text">
+                           <div class="section2__produkt-date"><span>Дата покупки:</span> 2022.01.01 <span>Время:</span> 8:03</div>
+                           <div class="section2__produkt-price"><span>Сумма:</span> 165 000 руб. <span>Статус оплаты:</span> Оплачен </div>
+                        </div>
+                     </div>
+                     <div class="cabinet__produkt">
+                        <div class="section2__produkt-img">
+                           <img src="@img/acs.jpg" alt="img">
+                           <img src="@img/p.jpg" alt="img">
+                           <img src="@img/br.jpg" alt="img">
+                           <img src="@img/komplekt.jpg" alt="img">
+                        </div>
+                        <div class="section2__produkt-content-text">
+                           <div class="section2__produkt-date"> <span>Дата покупки:</span>2022.01.01 <span>Время:</span> 8:03</div>
+                           <div class="section2__produkt-price"><span>Сумма:</span> 165 000 руб. <span>Статус оплаты:</span> Оплачен </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+      </main>
+      @@include('html/footer.html',{})
+      <script src="js/app.js"></script>
+   </body>
+</html>

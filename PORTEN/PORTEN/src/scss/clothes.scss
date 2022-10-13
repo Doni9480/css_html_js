@@ -1,0 +1,43 @@
+.clothes {
+   width: 259px;
+   min-height: 385px;
+   background: #0f0f0f;
+   margin-bottom: 10px;
+   &__imga {
+      padding: 55px 22px;
+      width: 259px;
+      max-height: 325px;
+      img{
+         max-width: 215px;
+         max-height: 215px;
+         object-fit: cover;
+         object-position: center;
+      }
+   }
+
+   &__texts {
+      margin: 0px 0px 10px 10px;
+   }
+
+   &__name {
+      text-align: center;
+      padding-bottom: 10px;
+      font-size: 16px;
+   }
+
+   &__praise {
+      font-size: 16px;
+      margin-bottom: 5px;
+      span{
+         color: #999;
+      }
+   }
+
+   &__kategoria {
+      font-size: 16px;
+      padding-bottom: 10px;
+      span{
+         color: #999;
+      }
+   }
+}
