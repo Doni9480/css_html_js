@@ -1,0 +1,1 @@
+const burogerActive = document.body.querySelector('.menu-burger').click()
