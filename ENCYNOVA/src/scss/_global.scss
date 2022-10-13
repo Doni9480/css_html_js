@@ -1,0 +1,29 @@
+.conteiner {
+   max-width: 1180px;
+   padding: 0px 5px;
+   margin: 0px auto;
+}
+.wrapper{
+   overflow: hidden;
+   max-width: 100%;
+}
+.active{
+   
+}
+.animation:hover{
+   transform: translate(0px, 0px) rotate(-360deg) scale(1.2) skew(0deg,0deg);
+   transition: all 4s ease-in-out 0s;
+   
+}
+
+.title{
+   font-family: 'DM Sans';
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 110%;
+   color: #FFFFFF;
+}
+
+.footer{
+   background: #172021;
+}
